@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Color Picker </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="app" id="app">
+        <section class="container">
+            <article class="row">
+                <color-disc size="300" format="hex"></color-disc>
+                <!-- Color Disc code available on GitHub! -->
+            </article>
+            <article class="row">
+                <h1 id="color"></h1>
+            </article>
+            <hr>
+            <article class="row">
+                <div class="format-choice">
+                    <label for="format">Select Color Format </label>&nbsp; &nbsp;
+                    <select class="format" id="format">
+                        <option value="hex" selected>Hex</option>
+                        <option value="hsl">Hsl</option>
+                        <option value="rgb">Rgb</option>
+                    </select>
+                </div>
+            </article>
+        </section>
+    </section>
+    <script src="js/color-disc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

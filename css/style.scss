@@ -1,0 +1,100 @@
+// Import
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+// Variables
+$roboto: 'Roboto';
+// Styling
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: $roboto, sans-serif;
+}
+
+.container {
+    position: relative;
+    top: 12%;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    box-shadow: 0 0 9px 9px rgba(0, 0, 0, 0.25);
+}
+
+.row {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.row:nth-child(2) {
+    margin-top: 250px;
+}
+
+h1,
+label,
+select,
+option {
+    font-family: $roboto, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    position: relative;
+    top: -1em;
+}
+
+label,
+select,
+option {
+    font-size: 16px;
+}
+
+h1,
+label {
+    color: #222222;
+}
+
+select {
+    position: relative;
+    top: 0em;
+    display: block;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #424541;
+    border: 1px solid #e6e6e6;
+}
+
+hr {
+    width: 80%;
+    border: 0.5px solid #737373;
+    position: relative;
+    top: -1.8em;
+}
+
+label {
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: -1em;
+}

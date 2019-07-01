@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  position: relative;
+  top: 12%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 9px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 9px 9px rgba(0, 0, 0, 0.25);
+}
+
+.row {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row:nth-child(2) {
+  margin-top: 250px;
+}
+
+h1,
+label,
+select,
+option {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  position: relative;
+  top: -1em;
+}
+
+label,
+select,
+option {
+  font-size: 16px;
+}
+
+h1,
+label {
+  color: #222222;
+}
+
+select {
+  position: relative;
+  top: 0em;
+  display: block;
+  border-radius: 4px;
+  width: 200px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #424541;
+  border: 1px solid #e6e6e6;
+}
+
+hr {
+  width: 80%;
+  border: 0.5px solid #737373;
+  position: relative;
+  top: -1.8em;
+}
+
+label {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  top: -1em;
+}
+/*# sourceMappingURL=style.css.map */
